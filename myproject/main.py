@@ -1,5 +1,6 @@
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
 
 import os
 import crud
