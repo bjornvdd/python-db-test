@@ -1,26 +1,41 @@
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
-from sqlalchemy.orm import relationship
-
+from sqlalchemy import Column, Integer, String, Float
 from database import Base
 
 
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = "players"
 
     id = Column(Integer, primary_key=True, index=True)
+
+    first_name = Column(String)
+    last_name = Column(String)
     email = Column(String, unique=True, index=True)
-    hashed_password = Column(String)
-    is_active = Column(Boolean, default=True)
+    number = Column(Integer, unique=True, index=True)
+    birth_date = Column(String)
+    password = Column(String)
 
-    items = relationship("Item", back_populates="owner")
 
-
-class Item(Base):
-    __tablename__ = "items"
+class Team(Base):
+    __tablename__ = "teams"
 
     id = Column(Integer, primary_key=True, index=True)
-    title = Column(String, index=True)
-    description = Column(String, index=True)
-    owner_id = Column(Integer, ForeignKey("users.id"))
 
-    owner = relationship("User", back_populates="items")
+    team_name = Column(String)
+    captain_team = Column(String)
+    played_games = Column(Integer)
+    ranking = Column(Integer, unique=True, index=True)
+
+
+
+
+class Stadium(Base):
+    __tablename__ = "stadiums"
+
+    id = Column(Integer, primary_key=True, index=True)
+    stadium_name = Column(String, unique=True, index=True)
+    city = Column(String)
+    capacity = Column(Float)
+    age = Column(Integer)
+
+
+
