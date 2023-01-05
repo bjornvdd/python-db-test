@@ -11,7 +11,7 @@
 <p><a href="https://bjorn-api.netlify.app">Link naar <strong>hosted</strong> front-end</a></p>
 
 ## Over het thema:
-Ik heb besloten om verder te verdiepen in mijn basisproject die ik al gerealiseerd heb, alleen nu is alles anders aangepakt, veel lees plezier :). Nu heb ik password hashing & OAuth geimplementeerd. De data die word gemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen diegene met de juiste credentials.
+Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gerealiseerd heb, alleen nu is alles anders aangepakt, veel lees plezier :). Nu heb ik password hashing & OAuth geimplementeerd. De data die word gemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen diegene met de juiste credentials.
 
 
 ## Over de front-end:
@@ -81,6 +81,11 @@ Nu ga ik de API bevragen op Postman.
 * Post-request: make team
 <img src="images/POSTmaketeam.PNG" alt = "maketeam" width="100%" height="100%">
 
-* Post-request
+* Post-request: make stadium
+<img src="images/POSTmakestadium.PNG" alt = "makestadium" width="100%" height="100%">
+
+* Get-request: all players
+<img src="images/GETallplayers.PNG" alt = "allplayers" width="100%" height="100%">
+
 
 ### OPENAPI Screenshots
