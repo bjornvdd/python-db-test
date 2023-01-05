@@ -50,7 +50,7 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 * Put-request change/captain = hier kan je een captain (uit team) veranderen op basis van zijn id (team_id) die je meegeeft
 
 
-### Overvieuw API:
+### Overview API:
 <img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
 
 
@@ -67,13 +67,13 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 
 ### Password hashing (voorbeeld):
 
-Hier zie je dat het paswoord niet zomaar 'plain text'.
+Hier zie je dat het paswoord niet zomaar 'plain text' is.
 
 <img src="images/Passwordhashing.PNG" alt = "oauthloggedin" width="100%" height="100%">
 
 
 ### Postman Screenshots
-Nu ga ik de API bevragen op Postman.
+Vervolgens ga ik de API bevragen op Postman.
 
 * Post-request: make player
 <img src="images/POSTmakeplayer.PNG" alt = "makeplayer" width="100%" height="100%">
@@ -82,10 +82,30 @@ Nu ga ik de API bevragen op Postman.
 <img src="images/POSTmaketeam.PNG" alt = "maketeam" width="100%" height="100%">
 
 * Post-request: make stadium
-<img src="images/POSTmakestadium.PNG" alt = "makestadium" width="100%" height="100%">
+<img src="images/POSTmakeStadium.PNG" alt = "makestadium" width="100%" height="100%">
 
 * Get-request: all players
 <img src="images/GETallplayers.PNG" alt = "allplayers" width="100%" height="100%">
+
+* Get-request: all teams
+<img src="images/GETallteams.PNG" alt = "allteams" width="100%" height="100%">
+
+* Get-request: all stadiums
+<img src="images/GETallstadiums.PNG" alt = "allstadiums" width="100%" height="100%">
+
+* Get-request: team rank
+<img src="images/GETSpecificRankteam.PNG" alt = "specificrank" width="100%" height="100%">
+
+* Delete-request: remove player
+<img src="images/DELETEremoveplayer.PNG" alt = "removeplayer" width="100%" height="100%">
+
+* Put-request: change player
+<img src="images/PUTchangeplayer.PNG" alt = "changeplayer" width="100%" height="100%">
+
+* Put-request: change captain
+<img src="images/PUTchangecaptainteam.PNG" alt = "changecaptain" width="100%" height="100%">
+
+
 
 
 ### OPENAPI Screenshots
