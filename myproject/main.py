@@ -73,17 +73,17 @@ def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(), db:
 
 
 @app.post("/make/player", response_model=schemas.User)
-async def create_player(user: schemas.UserCreate, db: Session = Depends(get_db)):
+async def create_player(user: schemas.UserCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
     return crud.create_user(db=db, user=user)
 
 
 @app.post("/make/team", response_model=schemas.Team)
-async def create_team(team: schemas.TeamCreate, db: Session = Depends(get_db)):
+async def create_team(team: schemas.TeamCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
     return crud.create_team(db=db, team=team)
 
 
 @app.post("/make/stadium", response_model=schemas.Stadium)
-async def create_stadium(stadium: schemas.StadiumCreate, db: Session = Depends(get_db)):
+async def create_stadium(stadium: schemas.StadiumCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
     return crud.create_stadium(db=db, stadium=stadium)
 
 
