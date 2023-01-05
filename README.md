@@ -11,7 +11,7 @@
 <p><a href="https://bjorn-api.netlify.app">Link naar <strong>hosted</strong> front-end</a></p>
 
 ## Over het thema:
-Mijn eindproject gaat over voetbal (uitbreiding van basisproject). Nu heb ik password hashing & OAuth geimplementeerd. De data die word gemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd.
+Ik heb besloten om verder te verdiepen in mijn basisproject die ik al gerealiseerd heb, alleen nu is alles anders aangepakt, veel lees plezier :). Nu heb ik password hashing & OAuth geimplementeerd. De data die word gemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd.
 
 
 ## Over de front-end:
@@ -19,10 +19,10 @@ Mijn eindproject gaat over voetbal (uitbreiding van basisproject). Nu heb ik pas
 Ik heb ook een front-end pagina erbij gerealiseerd.
 <p>Front-end pagina: <a href="https://bjorn-api.netlify.app">Link naar <strong>hosted</strong> front-end</a></p>
 
-<img src="images/front-end.png" alt = "POST" width="100%" height="100%">
+
 
 ## Over de API:
-Mijn API doet 1 POST-request en 2 GET-requests.
+<img src="images/FastAPIdocs.png" alt = "POST" width="100%" height="100%">
 
 ### POST-request:
 Bij de POST-request heb je de kans om een speler **aan te maken** die jezelf wilt, de output krijg je dan in JSON formaat.
