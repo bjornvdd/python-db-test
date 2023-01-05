@@ -16,7 +16,7 @@ Ik heb besloten om verder te verdiepen in mijn basisproject die ik al gerealisee
 
 ## Over de front-end:
 
-Ik heb ook een front-end pagina erbij gerealiseerd.
+Ik heb ook een front-end pagina erbij gerealiseerd die ik host op 'netlify'.
 <p>Front-end pagina: <a href="https://bjorn-api.netlify.app">Link naar <strong>hosted</strong> front-end</a></p>
 
 
@@ -28,6 +28,7 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 * Post-request Token = hier kan je bv met een "authenticated" user in loggen voor een "Bearer" token te krijgen
 * Post-request make/player = hier kan je een speler maken met een password die gehashed is.
 * Post-request make/stadium = hier kan je bv een nieuwe stadium aanmaken waarin de spelers hun wedstrijd spelen
+
 <hr>
 
 ### GET-requests:
@@ -36,15 +37,30 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 * Get-request all/stadiums = hier kan je alle **stadiums** terugvinden, die in de database zijn aagemaakt
 * Get-request team/rank = hier kan je een specifiek team opvragen die bv 1ste,2de of 3de plaats is in de ranking.
 
-### Delete-request:
-* Delete - request: 
+<hr>
 
+### Delete-request:
+* Delete-request remove/player = hier kan je een speler verwijderen op basis van de achternaam. Dus als je zijn achternaam invult wordt de speler uit de database verwijderd.
+
+<hr>
+
+### Put-requests:
+
+* Put-request change/player = hier kan je een player zijn naam veranderen op basis van zijn id (player_id) die je meegeeft.
+* Put-request change/captain = hier kan je een captain (uit team) veranderen op basis van zijn id (team_id) die je meegeeft
 
 
 ### Overvieuw API:
 <img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
 
 
+### OAuth verificatie
+
+* Status: niet ingelogd
+<img src="images/OAUTH.PNG" alt = "oauthnotloggedin" width="100%" height="100%">
+
+* Status: wel ingelogd
+<img src="images/OAUTHloggedin.PNG" alt = "oauthloggedin" width="100%" height="100%">
 
 ### Postman Screenshots
 Nu ga ik de API bevragen die in de cloud zit op Postman.
