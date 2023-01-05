@@ -22,23 +22,24 @@ Ik heb ook een front-end pagina erbij gerealiseerd.
 
 
 ## Over de API:
+### POST requests:
 * Post-request Token = hier kan je bv met een "authenticated" user in loggen voor een "Bearer" token te krijgen
 * Post-request make/player = hier kan je een speler maken met een password die gehashed is.
 * Post-request make/stadium = hier kan je bv een nieuwe stadium aanmaken waarin de spelers hun wedstrijd spelen
 <hr>
-* Get-request 
-<img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
-
-### POST-requests:
-Bij de POST-request heb je de kans om een speler **aan te maken** die jezelf wilt, de output krijg je dan in JSON formaat.
-
 
 ### GET-requests:
+* Get-request all/players = hier kan je alle **spelers** terugvinden, die in de database zijn aangemaakt
+* Get-request all/teams = hier kan je alle **teams** terugvinden, die in de database zijn aangemaakt
+
+
+
+### Overvieuw API-Docs:
+<img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
+
 
 
 ### Postman Screenshots
 Nu ga ik de API bevragen die in de cloud zit op Postman.
 
-### POST-requests:
-
-* POST- token aanmaken
+### OPENAPI Screenshots
