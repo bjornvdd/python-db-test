@@ -23,3 +23,17 @@ Ik heb ook een front-end pagina erbij gerealiseerd.
 
 ## Over de API:
 Mijn API doet 1 POST-request en 2 GET-requests.
+
+### POST-request:
+Bij de POST-request heb je de kans om een speler **aan te maken** die jezelf wilt, de output krijg je dan in JSON formaat.
+
+
+### GET-requests:
+
+
+### Postman Screenshots
+Nu ga ik de API bevragen die in de cloud zit op Postman.
+
+### POST-requests:
+
+* POST- token aanmaken
