@@ -22,7 +22,7 @@ Ik heb ook een front-end pagina erbij gerealiseerd.
 
 
 ## Over de API:
-<img src="images/FastAPIdocs.png" alt = "POST" width="100%" height="100%">
+<img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
 
 ### POST-request:
 Bij de POST-request heb je de kans om een speler **aan te maken** die jezelf wilt, de output krijg je dan in JSON formaat.
