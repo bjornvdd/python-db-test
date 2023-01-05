@@ -11,7 +11,7 @@
 <p><a href="https://bjorn-api.netlify.app">Link naar <strong>hosted</strong> front-end</a></p>
 
 ## Over het thema:
-Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gerealiseerd heb, alleen nu is alles anders aangepakt, veel lees plezier :). Nu heb ik password hashing & OAuth geimplementeerd. De data die word gemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen diegene met de juiste credentials.
+Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gerealiseerd had, alleen nu is alles anders aangepakt, veel lees plezier :). In mijn API heb ik password hashing & OAuth geimplementeerd. De data die word aangemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen bevoegde personen kunnen met de juiste credentials de API bedienen.
 
 ## Uitbreidingen:
 
@@ -30,8 +30,9 @@ Ik heb ook een front-end pagina erbij gerealiseerd die ik host op 'netlify'.
 API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 
 ### POST requests:
-* Post-request Token = hier kan je bv met een "authenticated" user in loggen voor een "Bearer" token te krijgen
-* Post-request make/player = hier kan je een speler maken met een password die gehashed is.
+* Post-request Token = hier kan je bv met een "authenticated" user in loggen om een "Bearer" token te verkrijgen
+* Post-request make/player = hier kan je een speler aanmaken met een password die gehashed is.
+* Post-request make/team = hier kan je een team aanmaken die opgeslagen wordt in de database.
 * Post-request make/stadium = hier kan je bv een nieuwe stadium aanmaken waarin de spelers hun wedstrijd spelen
 
 <hr>
@@ -52,7 +53,7 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 ### Put-requests:
 
 * Put-request change/player = hier kan je een player zijn naam veranderen op basis van zijn id (player_id) die je meegeeft.
-* Put-request change/captain = hier kan je een captain (uit team) veranderen op basis van zijn id (team_id) die je meegeeft
+* Put-request change/captain = hier kan je een captain (uit team) veranderen op basis van zijn id (team_id) die je meegeeft. Het kan natuurlijk voorvallen dat er een andere kapitein wordt gekozen door de coach. Dus daarom heb ik dit voorzien in mijn API.
 
 
 ### Overview API:
