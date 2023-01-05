@@ -54,6 +54,7 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 <img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
 
 
+
 ### OAuth verificatie
 
 * Status: niet ingelogd
@@ -62,7 +63,24 @@ API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
 * Status: wel ingelogd
 <img src="images/OAUTHloggedin.PNG" alt = "oauthloggedin" width="100%" height="100%">
 
+
+
+### Password hashing (voorbeeld):
+
+Hier zie je dat het paswoord niet zomaar 'plain text'.
+
+<img src="images/Passwordhashing.PNG" alt = "oauthloggedin" width="100%" height="100%">
+
+
 ### Postman Screenshots
-Nu ga ik de API bevragen die in de cloud zit op Postman.
+Nu ga ik de API bevragen op Postman.
+
+* Post-request: make player
+<img src="images/POSTmakeplayer.PNG" alt = "makeplayer" width="100%" height="100%">
+
+* Post-request: make team
+<img src="images/POSTmaketeam.PNG" alt = "maketeam" width="100%" height="100%">
+
+* Post-request
 
 ### OPENAPI Screenshots
