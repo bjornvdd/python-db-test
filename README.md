@@ -77,7 +77,7 @@ Hier zie je dat het paswoord niet zomaar 'plain text' is.
 <img src="images/Passwordhashing.PNG" alt = "oauthloggedin" width="100%" height="100%">
 
 
-### Postman Screenshots
+### Postman Screenshots:
 Vervolgens ga ik de API bevragen op Postman.
 
 * Post-request: make player
@@ -113,4 +113,41 @@ Vervolgens ga ik de API bevragen op Postman.
 
 
 
-### OPENAPI Screenshots
+### OPENAPI Screenshots:
+
+* Post-request: make token
+<img src="images/OPENposttoken.PNG" alt = "maketoken" width="100%" height="100%">
+
+* Post-request: make player
+<img src="images/OPENpostmakeplayer.PNG" alt = "makeplayer" width="100%" height="100%">
+
+* Post-request: make team
+<img src="images/OPENpostmaketeam.PNG" alt = "maketeam" width="100%" height="100%">
+
+* Post-request: make stadium
+<img src="images/OPENmakestadium.PNG" alt = "makestadium" width="100%" height="100%">
+
+* Get-request: all players
+<img src="images/OPENgetallplayers.PNG" alt = "allplayers" width="100%" height="100%">
+
+* Get-request: all teams
+<img src="images/OPENgetallteams.PNG" alt = "allteams" width="100%" height="100%">
+
+* Get-request: all stadiums
+<img src="images/OPENgetallstadiums.PNG" alt = "allstadiums" width="100%" height="100%">
+
+* Get-request: team rank
+<img src="images/OPENgetteamrank.PNG" alt = "specificrank" width="100%" height="100%">
+
+* Delete-request: remove player
+<img src="images/OPENdeleteplayer.PNG" alt = "removeplayer" width="100%" height="100%">
+
+* Put-request: change player
+<img src="images/OPENchangeplayer.PNG" alt = "changeplayer" width="100%" height="100%">
+
+* Put-request: change captain
+<img src="images/OPENchangecaptain.PNG" alt = "changecaptain" width="100%" height="100%">
+
+## Uitbreiding screenshots:
+
+<p align="right"><a href="#readme-back-top">Back to top</a></p>
