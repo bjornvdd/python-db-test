@@ -22,6 +22,8 @@ Ik heb ook een front-end pagina erbij gerealiseerd.
 
 
 ## Over de API:
+API bevragen via URL: *https://bjorn-service-bjornvdd.cloud.okteto.net*
+
 ### POST requests:
 * Post-request Token = hier kan je bv met een "authenticated" user in loggen voor een "Bearer" token te krijgen
 * Post-request make/player = hier kan je een speler maken met een password die gehashed is.
@@ -31,10 +33,15 @@ Ik heb ook een front-end pagina erbij gerealiseerd.
 ### GET-requests:
 * Get-request all/players = hier kan je alle **spelers** terugvinden, die in de database zijn aangemaakt
 * Get-request all/teams = hier kan je alle **teams** terugvinden, die in de database zijn aangemaakt
+* Get-request all/stadiums = hier kan je alle **stadiums** terugvinden, die in de database zijn aagemaakt
+* Get-request team/rank = hier kan je een specifiek team opvragen die bv 1ste,2de of 3de plaats is in de ranking.
+
+### Delete-request:
+* Delete - request: 
 
 
 
-### Overvieuw API-Docs:
+### Overvieuw API:
 <img src="images/FastAPIdocs.PNG" alt = "docs" width="100%" height="100%">
 
 
