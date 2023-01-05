@@ -80,7 +80,10 @@ def change_player(db: Session, player_id: int, user: schemas.UserCreate):
 
 def change_captain(db: Session, team_id: int, team: schemas.TeamCreate):
     db_user = db.query(models.Team).filter(models.Team.id == team_id).first()
+    db_user.team_name = team.team_name
     db_user.captain_team = team.captain_team
+    db_user.played_games = team.played_games
+    db_user.ranking = team.ranking
     db.commit()
     db.refresh(db_user)
     return db_user
