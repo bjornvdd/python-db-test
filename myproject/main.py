@@ -25,7 +25,12 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:8080",
-    "https://bjornvdd.github.io"
+    "http://127.0.0.1:5500",
+    "https://localhost.tiangolo.com",
+    "https://bjornvdd.github.io",
+    "https://bjorn-api.netlify.app"
+
+
 ]
 
 app.add_middleware(
@@ -126,5 +131,5 @@ def change_captain(team_id: int, team: schemas.TeamCreate, db: Session = Depends
                    token: str = Depends(oauth2_scheme)):
     db_user = crud.change_captain(db, team_id=team_id, team=team)
     if db_user is None:
-        raise HTTPException(status_code=404, detail="Captain not found, please try again!")
+        raise HTTPException(status_code=404, detail="Can not be changed, captain not found. Please try again!")
     return db_user
