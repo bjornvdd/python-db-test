@@ -14,10 +14,11 @@
 Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gerealiseerd had, alleen nu is alles anders aangepakt, veel lees plezier :). In mijn API heb ik password hashing & OAuth geimplementeerd. De data die word aangemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen bevoegde personen kunnen met de juiste credentials de API bedienen.
 
 ## Uitbreidingen:
-<p><a name="uitbreiding"></a>Zie uitbreiding</p>
+
 * Functie: 2.1 / 2.2 = 20% 
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
+<p><a name="uitbreiding">Zie uitbreiding via deze link! </a></p>
 
 ## Over de front-end:
 
