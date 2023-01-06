@@ -171,5 +171,7 @@ Vervolgens ga ik de API bevragen op Postman.
 * Verficatië GET-requests:
 <img src="images/Verificatiepytests.PNG" alt = "verificatiepytests" width="100%" height="100%">
 
+### 3.1 / 3.1.1 / 3.1.2 Front-end applicatie (hosting op Netlify)
+
 <p align="right"><a href="#readme-back-top">Back to top</a></p>
 
