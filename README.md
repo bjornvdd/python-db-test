@@ -18,7 +18,7 @@ Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gereal
 * Functie: 2.1 / 2.2 = 20% 
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
-<p><a name="uitbreiding">Zie uitbreiding via deze link! </a></p>
+<p id = "uitbreiding">Zie uitbreiding via deze link!</p>
 
 ## Over de front-end:
 
