@@ -14,7 +14,7 @@
 Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gerealiseerd had, alleen nu is alles anders aangepakt, veel lees plezier :). In mijn API heb ik password hashing & OAuth geimplementeerd. De data die word aangemaakt wordt ook opgeslagen in een database namelijk 'sqlite.db'. Het is dus niet identiek t.o.v het basisproject. De API is nu meer beveiligd, niet iedereen kan de API gebruiken. Alleen bevoegde personen kunnen met de juiste credentials de API bedienen.
 
 ## Uitbreidingen:
-
+<a name="uitbreiding"></a>
 * Functie: 2.1 / 2.2 = 20% 
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
@@ -150,5 +150,18 @@ Vervolgens ga ik de API bevragen op Postman.
 <img src="images/OPENchangecaptain.PNG" alt = "changecaptain" width="100%" height="100%">
 
 ## Uitbreiding screenshots:
+<p><a href="#uitbreiding">Uitbreiding</a></p>
+
+### 2.1 Test alle GET endpoints:
+
+* Python code:
+<img src="images/PythoncodePytest.PNG" alt = "pythoncode" width="100%" height="100%">
+
+* Alle GET- requests:
+<img src="images/PytestAllgetrequests.PNG" alt = "allgetrequests" width="100%" height="100%">
+
+* Verficatië GET-requests:
+<img src="images/Verificatiepytests.PNG" alt = "verificatiepytests" width="100%" height="100%">
 
 <p align="right"><a href="#readme-back-top">Back to top</a></p>
+
