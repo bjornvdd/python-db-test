@@ -18,7 +18,10 @@ Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gereal
 * Functie: 2.1 / 2.2 = 20% 
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
-<p id = "uitbreiding">Zie uitbreiding via deze link!</p>
+
+<p><a href="#uitbreiding">Uitbreiding via deze link!</a></p>
+
+
 
 ## Over de front-end:
 
@@ -151,7 +154,7 @@ Vervolgens ga ik de API bevragen op Postman.
 <img src="images/OPENchangecaptain.PNG" alt = "changecaptain" width="100%" height="100%">
 
 ## Uitbreiding screenshots:
-<p><a href="#uitbreiding">Uitbreiding</a></p>
+<p id = "uitbreiding">Zie uitbreiding</p>
 
 ### 2.1 Test alle GET endpoints:
 
