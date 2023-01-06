@@ -174,16 +174,16 @@ Vervolgens ga ik de API bevragen op Postman.
 ### 3.1 / 3.1.1 / 3.1.2 Front-end applicatie (hosting op Netlify)
 
 * Netlify homepagina:
-<img src="images/front-endpreview.PNG" alt = "front-endpreview" width="100%" height="100%">
+<img src="images/Front-endpreview.PNG" alt = "front-endpreview" width="100%" height="100%">
 
 * Front-end Player aanmaken:
 <img src="images/front-endpostrequest.PNG" alt = "front-endpost" width="100%" height="100%">
 
 * Front-end Token aanmaken: - Net een player aangemaakt
-<img src="images/front-endtoken.PNG" alt = "front-endtoken" width="100%" height="100%">
+<img src="images/Front-endtoken.PNG" alt = "front-endtoken" width="100%" height="100%">
 
 * Front-end get requests:
-<img src="images/front-endgetrequests.PNG" alt = "front-endgetrequests" width="100%" height="100%">
+<img src="images/Front-endgetrequests.PNG" alt = "front-endgetrequests" width="100%" height="100%">
 
 
 <p align="right"><a href="#readme-back-top">Back to top</a></p>
