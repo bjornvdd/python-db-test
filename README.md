@@ -15,7 +15,7 @@ Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gereal
 
 ## Uitbreidingen:
 
-* Functie: 2.1 / 2.2 = 20% 
+* Functie: 2.1 = 10% 
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
 
