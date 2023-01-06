@@ -19,7 +19,7 @@ Ik heb besloten om mij verder te verdiepen in mijn basisproject die ik al gereal
 * Front-end: 3.1 / 3.1.1 / 3.1.2 = 35%
 
 
-<p><a href="#uitbreiding">Uitbreiding via deze link!</a></p>
+<p><a href="#uitbreiding">Uitbreiding zien via deze link!</a></p>
 
 
 
@@ -153,8 +153,12 @@ Vervolgens ga ik de API bevragen op Postman.
 * Put-request: change captain
 <img src="images/OPENchangecaptain.PNG" alt = "changecaptain" width="100%" height="100%">
 
+<p id = "uitbreiding">
+
 ## Uitbreiding screenshots:
-<p id = "uitbreiding">Zie uitbreiding</p>
+
+</p>
+
 
 ### 2.1 Test alle GET endpoints:
 
