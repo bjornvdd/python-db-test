@@ -24,7 +24,7 @@ app = FastAPI()
 # implementing security
 origins = [
     "http://localhost",
-    "http://localhost:8080",
+    "http://localhost:8000",
     "https://bjornvdd.github.io",
     "https://bjorn-api.netlify.app"
 
